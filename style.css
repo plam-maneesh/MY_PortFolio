@@ -44,11 +44,11 @@ a {
 
 }
 
+/* Header_section */
+.head-section{
 
-/* content_section */
+border-right: 1px solid;
 
-
-.content-start{
 
 
 
@@ -57,6 +57,20 @@ a {
 }
 
 
+
+
+/* Header_section_end */
+
+
+/* content_section */
+
+.content_nav{
+
+
+    background-color: rgb(224, 224, 224);
+
+
+}
 
 
 
