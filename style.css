@@ -64,13 +64,34 @@ border-right: 1px solid;
 
 /* content_section */
 
-.content_nav{
+.nav_header{
+
+        
+
+    width: 50%;
+    z-index:1;
+
 
 
     background-color: rgb(224, 224, 224);
 
+    position: fixed;
+    
+
 
 }
+.conntent_catagary{
+
+
+    
+
+
+
+
+}
+
+
+
 
 
 
