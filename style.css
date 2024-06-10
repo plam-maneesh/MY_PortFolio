@@ -28,7 +28,7 @@ a {
 .main-section {
 
 
-    border-right: 2px solid;
+  
 
 
 
@@ -47,7 +47,7 @@ a {
 /* Header_section */
 .head-section{
 
-border-right: 1px solid;
+
 
 
 
@@ -104,3 +104,22 @@ border-right: 1px solid;
 
 
 /* content_section_end */
+
+
+/* footer start */
+
+.footer{
+
+baground-color: white;
+
+
+
+
+
+}
+
+
+
+
+
+/* footer end */
