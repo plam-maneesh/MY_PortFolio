@@ -1,0 +1,6 @@
+{
+    "rainbow_csv.enable_context_menu_head": false,
+    "rainbow_csv.enable_context_menu_tail": false,
+    "zenMode.hideActivityBar": true,
+    "debug.hideLauncherWhileDebugging": false
+}

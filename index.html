@@ -17,7 +17,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="index.css" />
     <link rel="stylesheet" href="index.js" />
   </head>
 
@@ -25,30 +25,46 @@
     <!-- main container start -->
     <div class="container-fluid">
       <!--main-row_section_start -->
-      <div class="row head-section">
-        <!-- main-columan header -->
-        <div class="col overflow-auto">
-          <!-- Header_section -->
+      <div class="row mainrow-section">
 
-          <div class="container head-section">
+        <!-- main-columan-->
+        <div class="col overflow-auto main-col" style="height: 600px">
+
+
+
+          <!-- navbar -->
+
+
+           <!-- navbar end -->
+
+
+          <!-- Header_section -->
+          <div class=" col header-section" >
             <div class="row profile">
               <div class="col">
-                <div>
-                  <img
-                    class="rounded mx-auto d-block rounded-circle profile-img"
-                    style="
-                      height: 20rem;
-                      width: 20rem;
-                      display: flex;
-                      justify-content: center;
-                    "
+                <div class="d-flex justify-content-center profile-img rounded-bottom-circle">
+                
+                  <div class="child-img">
+                    <img 
+
+                    style="border:solid 3px white;"
+                    class=" mx-auto w-25 rounded-circle  "
                     src=" img/20230304_084334~2-EDIT.jpg "
                     alt="Loading..."
                   />
+                  </div>
+                 
                 </div>
 
                 <div>
-                  <h2>Welcome to p m maneesh's Portfolio!</h2>
+                  <h2 style="font-size: x-large; font-weight: 600">
+                    p m maneesh's Portfolio!
+                  </h2>
+                  <a href="">
+                    <span style="padding: 10px; opacity: 80%"
+                      >@plammaneesh</span
+                    ></a
+                  >
 
                   <p>
                     Hello and welcome to my portfolio! I'm thrilled to have you
@@ -70,28 +86,44 @@
                     <div class="row">
                       <div class="col p-3">
                         <span>#Programming Language:</span>
-                        <li>Html</li>
-                        <li>CSS</li>
-                        <li>JS</li>
-                        <li>C</li>
-                        <li>java</li>
+                        <li><i class="fa-brands fa-html5 fa-lg"></i>HTML</li>
+                        <li><i class="fa-brands fa-css3-alt fa-lg"></i>CSS</li>
+                        <li><i class="fa-brands fa-js fa-lg"></i>JavaScript</li>
+                        <li class="p-1">
+                          <i class="fa-solid fa-c"></i>Language
+                        </li>
+                        <li><i class="fa-brands fa-java fa-lg"></i>java</li>
                       </div>
 
                       <div class="col p-3">
                         <span>#Frameworks & Libraries: </span>
 
-                        <li>React.js</li>
-                        <li>Angular</li>
-                        <li>Vue.js</li>
-                        <li>Bootstrap</li>
+                        <li>
+                          <i
+                            class="fa-brands fa-react fa-lg"
+                            style="color: #74c0fc"
+                          ></i>
+                          React.js
+                        </li>
+                        <li>
+                          <i class="fa-brands fa-angular fa-lg"></i>Angular
+                        </li>
+                        <li><i class="fa-brands fa-vuejs fa-lg"></i>Vue.js</li>
+                        <li>
+                          <i class="fa-brands fa-bootstrap fa-lg"></i>Bootstrap
+                        </li>
                       </div>
 
                       <div class="col p-3">
                         <span>#Backend Development:</span>
-                        <li>Node.js</li>
+                        <li>
+                          <i class="fa-brands fa-node-js fa-lg"></i>Node.js
+                        </li>
                         <li>Express.js</li>
-                        <li>MongoDB</li>
-                        <li>MySQL</li>
+                        <li>
+                          <i class="fa-solid fa-database fa-lg"></i>MongoDB
+                        </li>
+                        <li><i class="fa-solid fa-code fa-lg"></i>MySQL</li>
                       </div>
 
                       <div class="col p-3">
@@ -103,8 +135,8 @@
 
                       <div class="col p-3">
                         <span>#Tools & Technologies:</span>
-                        <li>Git</li>
-                        <li>VS Code</li>
+                        <li><i class="fa-brands fa-git"></i>Git</li>
+                        <li><i class="fa-duotone fa-code"></i>VS Code</li>
                         <li>Adobe Creative Suite</li>
                       </div>
 
@@ -126,166 +158,146 @@
 
         <!-- content_section_start -->
 
-        <div class="col container-fluid content_section p-0">
+        <div class="col content_section overflow-auto" style="height: 600px">
           <!-- projects_section -->
-          <div class="row row-cols-auto row-cols-md-2 g-4">
-            <!-- project-columan -->
-            <div class="col">
-              <!-- content nav_list_section -->
-              <div class="nav_header p-1">
-                <ul class="row nav_list">
-                  <a class="col" href="#">Home</a>
-                  <li class="col">
-                    <a class="" href="#Project_section">Projects</a>
-                  </li>
-                  <li class="col">
-                    <a class="" href="#communty_section">community</a>
-                  </li>
-                  <li class="col">
-                    <a href="#learng_section" class="nav-link">learng</a>
-                  </li>
-                </ul>
+          <div class="row g-4 p-4">
+            <!-- 1 -->
+            <div class="card" id="Projects">
+              <a href=" https://codepen.io/123manu/full/xxjBLyz"
+                ><img
+                  src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.qbu-5qtq43OXYkUd9_oETQHaFN%26pid%3DApi&f=1&ipt=8df63de30373396293850119ab98d78d397f13b40e66ae1d470596cf620fb2ce&ipo=images "
+                  class="card-img-top"
+                  alt="loding..."
+              /></a>
+              <div class="card-body">
+                <span
+                  ><a
+                    href="https://www.freecodecamp.org/fcc5d09ef3c-2089-465a-9474-148641cb8176 "
+                    >#freecodecamp</a
+                  ></span
+                >
+                <h5 class="card-title">Freecodecamp magazine</h5>
               </div>
-              <!-- content nav_list_section_end -->
-
-              <!-- 1 -->
-              <div class="card" id="Project_section">
-                <a href=" https://codepen.io/123manu/full/xxjBLyz"
-                  ><img
-                    src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.qbu-5qtq43OXYkUd9_oETQHaFN%26pid%3DApi&f=1&ipt=8df63de30373396293850119ab98d78d397f13b40e66ae1d470596cf620fb2ce&ipo=images "
-                    class="card-img-top"
-                    alt="loding..."
-                /></a>
-                <div class="card-body">
-                  <span
-                    ><a
-                      href="https://www.freecodecamp.org/fcc5d09ef3c-2089-465a-9474-148641cb8176 "
-                      >#freecodecamp</a
-                    ></span
-                  >
-                  <h5 class="card-title">Freecodecamp magazine</h5>
-                </div>
-              </div>
-
-              <!-- 1end -->
-
-              <!-- 2 -->
-
-              <div class="card" id="Project_section">
-                <a href="https://codepen.io/123manu/full/XWqGayV ">
-                  <img
-                    src=" img/Screenshot 2024-04-26 005158.png"
-                    class="card-img-top"
-                    alt="..."
-                /></a>
-
-                <div class="card-body">
-                  <span
-                    ><a
-                      href="https://www.freecodecamp.org/fcc5d09ef3c-2089-465a-9474-148641cb8176 "
-                      >#freecodecamp</a
-                    ></span
-                  >
-                  <h5 class="card-title">
-                    freecodecamp Handcrafted, home-made masterpieces
-                  </h5>
-                </div>
-              </div>
-
-              <!-- 2end -->
-
-              <!-- 3 -->
-
-              <div class="card" id="Project_section">
-                <a href="https://codepen.io/123manu/full/ZEoYrVo ">
-                  <img
-                    src=" img/Screenshot 2024-04-26 011118.png"
-                    class="card-img-top"
-                    alt=" loading..."
-                /></a>
-
-                <div class="card-body">
-                  <span
-                    ><a
-                      href="https://www.freecodecamp.org/fcc5d09ef3c-2089-465a-9474-148641cb8176 "
-                      >#freecodecamp</a
-                    ></span
-                  >
-
-                  <h5 class="card-title">freecodecamp survay form</h5>
-                </div>
-              </div>
-
-              <!-- 3 end -->
-
-              <!-- 4 -->
-
-              <div class="card" id="Project_section">
-                <a href="https://codepen.io/123manu/full/mdLyXGJ ">
-                  <img
-                    src=" img/Screenshot 2024-04-26 012822.png"
-                    class="card-img-top"
-                    alt="..."
-                  />
-                </a>
-                <div class="card-body">
-                  <span
-                    ><a
-                      href="https://www.freecodecamp.org/fcc5d09ef3c-2089-465a-9474-148641cb8176 "
-                      >#freecodecamp</a
-                    ></span
-                  >
-
-                  <h5 class="card-title">Freecodecamp CaFee menu</h5>
-                </div>
-              </div>
-
-              <!-- 4 end -->
-
-              <!-- 5 -->
-
-              <div class="card" id="Project_section">
-                <a href="https://plam-maneesh.github.io/mi-ui/ ">
-                  <img
-                    src=" https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.Qhbkngh0RogG_rQgVG01ywHaCD%26pid%3DApi&f=1&ipt=79fcd0e6bcf9939029dac3d84ebfa41df7a7458b0d8158f50cd4b7715f85196a&ipo=images"
-                    class="card-img-top"
-                    alt="..."
-                  />
-                </a>
-                <div class="card-body">
-                  <span><a href="https://entri.app/ ">#Entri app</a></span>
-
-                  <h5 class="card-title">Xiaomi website clone</h5>
-                </div>
-              </div>
-
-              <!--5 end -->
-
-              <!-- 6 -->
-
-              <div class="card">
-                <a href=" https://github.com/plam-maneesh/the_newYork_time ">
-                  <img
-                    src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.f3Zb2CAPIhnva0J6xOpyNAHaE8%26pid%3DApi&f=1&ipt=5087051f219e762f11fc0e7b7baa3b33881616996265f1a48b4e263425b640ee&ipo=images "
-                    class="card-img-top"
-                    alt="..."
-                  />
-                </a>
-                <div class="card-body">
-                  <span><a href="https://entri.app/ ">#Entri app</a></span>
-
-                  <h5 class="card-title">Xiaomi website clone</h5>
-                </div>
-              </div>
-
-              <!--6 end -->
             </div>
+
+            <!-- 1end -->
+
+            <!-- 2 -->
+
+            <div class="card" id="Projects">
+              <a href="https://codepen.io/123manu/full/XWqGayV ">
+                <img
+                  src=" img/Screenshot 2024-04-26 005158.png"
+                  class="card-img-top"
+                  alt="..."
+              /></a>
+
+              <div class="card-body">
+                <span
+                  ><a
+                    href="https://www.freecodecamp.org/fcc5d09ef3c-2089-465a-9474-148641cb8176 "
+                    >#freecodecamp</a
+                  ></span
+                >
+                <h5 class="card-title">
+                  freecodecamp Handcrafted, home-made masterpieces
+                </h5>
+              </div>
+            </div>
+
+            <!-- 2end -->
+
+            <!-- 3 -->
+
+            <div class="card" id="Projects">
+              <a href="https://codepen.io/123manu/full/ZEoYrVo ">
+                <img
+                  src=" img/Screenshot 2024-04-26 011118.png"
+                  class="card-img-top"
+                  alt=" loading..."
+              /></a>
+
+              <div class="card-body">
+                <span
+                  ><a
+                    href="https://www.freecodecamp.org/fcc5d09ef3c-2089-465a-9474-148641cb8176 "
+                    >#freecodecamp</a
+                  ></span
+                >
+
+                <h5 class="card-title">freecodecamp survay form</h5>
+              </div>
+            </div>
+
+            <!-- 3 end -->
+
+            <!-- 4 -->
+
+            <div class="card" id="Projects">
+              <a href="https://codepen.io/123manu/full/mdLyXGJ ">
+                <img
+                  src=" img/Screenshot 2024-04-26 012822.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+              </a>
+              <div class="card-body">
+                <span
+                  ><a
+                    href="https://www.freecodecamp.org/fcc5d09ef3c-2089-465a-9474-148641cb8176 "
+                    >#freecodecamp</a
+                  ></span
+                >
+
+                <h5 class="card-title">Freecodecamp CaFee menu</h5>
+              </div>
+            </div>
+
+            <!-- 4 end -->
+
+            <!-- 5 -->
+
+            <div class="card" id="Projects">
+              <a href="https://plam-maneesh.github.io/mi-ui/ ">
+                <img
+                  src=" https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.Qhbkngh0RogG_rQgVG01ywHaCD%26pid%3DApi&f=1&ipt=79fcd0e6bcf9939029dac3d84ebfa41df7a7458b0d8158f50cd4b7715f85196a&ipo=images"
+                  class="card-img-top"
+                  alt="..."
+                />
+              </a>
+              <div class="card-body">
+                <span><a href="https://entri.app/ ">#Entri app</a></span>
+
+                <h5 class="card-title">Xiaomi website clone</h5>
+              </div>
+            </div>
+
+            <!--5 end -->
+
+            <!-- 6 -->
+
+            <div class="card" id="Projects">
+              <a href=" https://github.com/plam-maneesh/the_newYork_time ">
+                <img
+                  src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.f3Zb2CAPIhnva0J6xOpyNAHaE8%26pid%3DApi&f=1&ipt=5087051f219e762f11fc0e7b7baa3b33881616996265f1a48b4e263425b640ee&ipo=images "
+                  class="card-img-top"
+                  alt="..."
+                />
+              </a>
+              <div class="card-body">
+                <span><a href="https://entri.app/ ">#Entri app</a></span>
+
+                <h5 class="card-title">Xiaomi website clone</h5>
+              </div>
+            </div>
+
+            <!--6 end -->
           </div>
           <!-- project_section_end -->
 
           <!-- Community_section_start -->
 
-          <div class="container-fluid" id="communty_section">
+          <div class="communtu" id="community">
             <div class="d-flex justify-content-center p-5">
               <h3>community</h3>
             </div>
@@ -326,40 +338,14 @@
           </div>
 
           <!-- Community_section_end -->
-
-          <!-- content_categaraise end-->
         </div>
-
         <!-- content_section_end -->
-
-        <!-- footer start -->
-        <div class="footer">
-          <div class="row">
-            <div class="col d-flex justify-content-between w-100" id="connect">
-              
-              
-              
-
-                <li>
-                  <span> <i class="fa-regular fa-envelope"></i></span>
-                  <a href="">plammaneesh@gmail.com</a>
-                </li>
-                <li>
-                  <span><i class="fa-brands fa-github"></i></span>
-                  <a href="https://github.com/plam-maneesh ">plam-maneesh</a>
-                </li>
-                <li>
-                  <span><i class="fa-brands fa-square-twitter"></i></span
-                  ><a href="https://twitter.com/plammaneesh">@plammaneesh</a>
-                </li>
-              
-            </div>
-          </div>
-        </div>
-        <!-- footer end -->
       </div>
       <!--main-row_Section_end -->
     </div>
     <!-- main_container_end -->
   </body>
 </html>
+
+
+
